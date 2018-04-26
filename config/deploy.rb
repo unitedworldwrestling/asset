@@ -13,13 +13,6 @@ append :linked_files, ".env", "public/.htaccess"
 # append :linked_dirs, "storage", "public/uploads"
 
 set :laravel_upload_dotenv_file_on_deploy, false
-
-# Ensure the dirs in :linked_dirs exist?
-# set :laravel_ensure_linked_dirs_exist, false
-
-# Ensure the paths in :file_permissions_paths exist?
-set :laravel_ensure_acl_paths_exist, false
-
-
+set :laravel_set_acl_paths, false
 
 set :keep_releases, 3
